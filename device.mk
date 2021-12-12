@@ -7,19 +7,6 @@
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage
-    
-#GAPPS config
-GAPPS_VARIANT := pico
-GAPPS_PRODUCT_PACKAGES += Youtube
-GAPPS_PRODUCT_PACKAGES += GoogleDialer
-GAPPS_PRODUCT_PACKAGES += Wallpapers
-GAPPS_PRODUCT_PACKAGES += CalculatorGoogle 
-GAPPS_PRODUCT_PACKAGES += PrebuiltDeskClockGoogle
-GAPPS_PRODUCT_PACKAGES += CalendarGooglePrebuilt
-GAPPS_PRODUCT_PACKAGES += PrebuiltGmail
-GAPPS_PRODUCT_PACKAGES += GoogleContacts 
-GAPPS_PRODUCT_PACKAGES += Messaging 
-$(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
 
 #Inherit from vendor
 $(call inherit-product, vendor/samsung/j5nlte/j5nlte-vendor.mk)
