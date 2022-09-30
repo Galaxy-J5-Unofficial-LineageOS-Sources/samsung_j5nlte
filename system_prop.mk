@@ -11,3 +11,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # RAM
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.config.low_ram=false
+	
+# Bluetooth
+PRODUCT_PROPERTY_OVERRIDES += \
+	bluetooth.device.default_name=Galaxy J5 (SM-J500FN)
+
